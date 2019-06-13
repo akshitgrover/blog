@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: "Blog | Akshit Grover"
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: "A blog for someone who likes watching what's under the hood."
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["blog", "devops", "nodejs", "golang", "schema", "docker", "gcp", "javascript", "js", "typescript", "ts"]
 
 #
 ###################################
@@ -33,13 +33,13 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  name: "Akshit Grover"
+  avatar: avatar.jpg
+  job: "Docker Community Leader"
+  bio: "A blog for someone who likes watching what's under the hood."
+  email: contact@akshitgrover.dev
   disqus-shortname:
-  twitter: #username
+  twitter: akshitgrover_
   facebook: #username
   google:
     plus: #username
@@ -48,9 +48,9 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: akshitgrover
   gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: 8884463/akshit-grover   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   skype: #username
   xing: #username

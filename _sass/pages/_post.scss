@@ -46,12 +46,12 @@ section.post {
 
 // Post title
 .post-title {
-
+  font-size: $font-size-h1;
 }
 
 .post-title-link {
 	color: $primary;
-	font-size: 14px;
+	font-size: $font-size-h3;
 	margin-left: 10px;
 	&:hover,
 	&:focus {
@@ -61,10 +61,10 @@ section.post {
 
 // Post meta
 .post-meta {
-  font-size: 13px;
+  font-size: $font-size-h6;
   font-weight: bold;
 	.post-date {
-		color: $secondary;
+		color: $post-date-color;
 	}
 	.post-author {
 		text-transform: uppercase;
@@ -72,7 +72,7 @@ section.post {
 	}
   .post-cat {
 		text-transform: uppercase;
-		color: $warning;
+		color: $category-color;
 	}
   .read-time {
     color: $primary;
