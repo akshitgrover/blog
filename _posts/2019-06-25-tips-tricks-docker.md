@@ -71,6 +71,8 @@ Since volumes are used to persist data between the life span of containers, Taki
 
 docker container run -idv data:/data --name data_container busybox;
 
+docker container exec data_container sh -c "echo \"data container\" > /data/data.txt";
+
 mkdir $HOME/backup;
 
 # Creates a temporary container which has volumes from data container and creates 
@@ -102,7 +104,7 @@ docker container run -idv new_data:/data --name new_data_container busybox;
 
 # Copying backup.tar in the container
 
-docker container cp $(pwd)/backup.tar new_data_container:/backup/backup.tar
+docker container cp $(pwd)/backup.tar new_data_container:/backup.tar
 
 # Extracting backup.tar file
 
