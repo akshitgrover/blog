@@ -6,7 +6,7 @@
 title: "Blog | Akshit Grover"
 email:
 description: "A blog for someone who likes watching what's under the hood."
-url: # the base hostname & protocol for your site
+url: "https://blog.akshitgrover.dev"
 keywords: ["blog", "devops", "nodejs", "golang", "schema", "docker", "gcp", "javascript", "js", "typescript", "ts"]
 
 #
